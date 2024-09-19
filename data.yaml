@@ -1,0 +1,17 @@
+names:
+- 'Ball'
+- 'GoalKeeper'
+- 'Player'
+- 'Referee'
+nc: 4
+
+test: ../test/images
+train: ../train/images
+val: ../valid/images
+
+roboflow:
+  license: CC BY 4.0
+  project: football_project-qi0r6
+  url: https://universe.roboflow.com/carton-box/football_project-qi0r6/dataset/1
+  version: 1
+  workspace: carton-box
